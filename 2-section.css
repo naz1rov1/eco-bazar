@@ -39,6 +39,11 @@ header .container {
   flex-direction: column;
 }
 
+.shopping-in a {
+  color: #111;
+  text-decoration: none;
+}
+
 .logo {
   display: flex;
   align-items: center;

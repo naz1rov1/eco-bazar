@@ -1,6 +1,9 @@
 const minusBtn = document.getElementById("minus");
 const plusBtn = document.getElementById("plus");
 const qtyInput = document.getElementById("quantity");
+const minuschaBtn = document.getElementById("minuscha");
+const pluschaBtn = document.getElementById("pluscha");
+const qtychaInput = document.getElementById("quantitycha");
 
 minusBtn.addEventListener("click", () => {
   let value = parseInt(qtyInput.value);
@@ -13,6 +16,19 @@ plusBtn.addEventListener("click", () => {
   let value = parseInt(qtyInput.value);
   qtyInput.value = value + 1;
 });
+
+minuschaBtn.addEventListener("click", () => {
+  let value = parseInt(qtychaInput.value);
+  if (value > 0) {
+    qtychaInput.value = value - 1;
+  }
+});
+
+pluschaBtn.addEventListener("click", () => {
+  let value = parseInt(qtychaInput.value);
+  qtychaInput.value = value + 1;
+});
+
 
 
 

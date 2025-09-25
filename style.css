@@ -39,6 +39,11 @@ header .container {
   flex-direction: column;
 }
 
+.shopping-in a {
+  color: #111;
+  text-decoration: none;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -193,7 +198,7 @@ nav ul li :hover {
   right: 80px;
   top: 350px;
   display: flex;
-  justify-content:center ;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -402,14 +407,10 @@ nav ul li :hover {
   margin-bottom: 60px;
 }
 
-.time-1 {
-  position: relative;
-}
-
 .time-in {
   position: absolute;
   top: 0;
-  right: 60px;
+  right: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -441,14 +442,15 @@ nav ul li :hover {
   cursor: pointer;
 }
 
-.time-2 {
+.time-img {
   position: relative;
 }
 
 .time-in-2 {
   position: absolute;
-  top: 0;
-  right: 105px;
+  z-index: 22;
+  top: 0px;
+  left: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -472,13 +474,12 @@ nav ul li :hover {
 .time-in-2 span {
   color: rgba(255, 138, 0, 1);
 }
-
-.time-3 {
+.time-img3 {
   position: relative;
 }
 
 .time-in-3 {
-  position: absolute;
+position: absolute;
   top: 0;
   right: 80px;
   display: flex;
@@ -868,10 +869,7 @@ footer ul li a:hover {
     width: 280px;
     height: 285px;
   }
-  .time {
-    display: flex;
-    flex-direction: column;
-  }
+ 
 }
 
 @media (max-width: 760px) {

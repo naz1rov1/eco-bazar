@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./shopping-card.css" />
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="container">
+        <p>Store Location: Lincoln-344, Illinois, Chicago, USA</p>
+        <p>
+          Eng | USD |
+          <a
+            href="#"
+            style="
+              text-decoration: none;
+              color: rgba(102, 102, 102, 1);
+              margin-left: 20px;
+            "
+            >Sign In / Sign Up</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="./img/Group (10).png" alt="" />
+          <p>Ecobazar</p>
+        </div>
+
+        <form class="search-box" role="search">
+          <input type="search" placeholder="Search" />
+          <button type="submit">Search</button>
+        </form>
+
+        <aside>
+          <div class="shopping">
+           <a href="./wishlist.html"> <img src="./img/Vector (23).png" alt="" /></a>
+            <a href=""> <img src="./img/Cart.png" alt="" /></a>
+            <div class="shopping-in">
+              <a href="">Shopping cart:</a>
+              <a href="">$57.00</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <nav>
+      <div class="container">
+        <ul>
+          <li><a href="./index.html">Home </a></li>
+          <li><a href="./2-section.html">Shop </a></li>
+          <li><a href="#">Pages </a></li>
+          <li><a href="#">Blog </a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <div class="phone-on">
+          <img src="./img/PhoneCall 1.png" alt="" />
+          <a class="phone" href="tel:(219) 555-0114">(219) 555-0114</a>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="img-header"></div>
+      <div class="container">
+        <a class="shop" href="">shopping cart</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="my-shop">
+          <h2>My Shopping Cart</h2>
+        </div>
+        <div class="all-section">
+          <div class="cart">
+            <div class="cart-header">
+              <p class="p1">Product</p>
+              <p class="p2">price</p>
+              <p class="p3">Quantity</p>
+              <p class="p4">Subtotal</p>
+            </div>
+
+            <div class="cart-row">
+              <div class="cart-product">
+                <img src="./img/Image (64).png" alt="Green Capsicum" />
+                <p>Green Capsicum</p>
+              </div>
+              <div>$14.00</div>
+              <div>
+                <div class="qty">
+                  <button id="minus">-</button>
+                  <input type="text" value="5" id="quantity" />
+                  <button id="plus">+</button>
+                </div>
+              </div>
+              <div><strong>$70.00</strong></div>
+              <div class="x">x</div>
+            </div>
+
+            <div class="cart-row">
+              <div class="cart-product">
+                <img src="./img/Image (65).png" alt="Red Capsicum" />
+                <p>Red Capsicum</p>
+              </div>
+              <div>$14.00</div>
+              <div>
+                <div class="qty">
+                  <button id="minuscha">-</button>
+                  <input type="text" value="5" id="quantitycha" />
+                  <button id="pluscha">+</button>
+                </div>
+              </div>
+              <div><strong>$14.00</strong></div>
+              <div class="x">x</div>
+            </div>
+
+            <div class="cart-footer">
+              <button>Return to shop</button>
+              <button>Update Cart</button>
+            </div>
+          </div>
+
+          <div class="Subtotal-all">
+            <h3>Cart Total</h3>
+            <div class="Subtotal">
+              <p>Subtotal:</p>
+              <p>$84.00</p>
+            </div>
+            <hr />
+            <div class="Subtotal">
+              <p>Shipping:</p>
+              <p>Free</p>
+            </div>
+            <hr />
+            <div class="Subtotal">
+              <p>Total:</p>
+              <p>$84.00</p>
+            </div>
+            <button class="btn-1">Proceed to checkout</button>
+          </div>
+        </div>
+        <div class="code">
+          <h3>Coupon Code</h3>
+          <input type="password" id="password" placeholder="Enter code" />
+          <button>Apply Coupon</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container">
+        <div>
+          <h3>Subscribe our Newsletter</h3>
+          <p>
+            Pellentesque eu nibh eget mauris congue mattis mattis nec <br />
+            tellus. Phasellus imperdiet elit eu magna.
+          </p>
+        </div>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email address" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <div class="logo">
+              <img src="./img/Group (10).png" alt="" />
+              <p>Ecobazar</p>
+            </div>
+            <div class="">
+              <p>
+                Morbi cursus porttitor enim lobortis molestie. Duis gravida
+                turpis dui, eget bibendum magna congue nec.
+              </p>
+              <div class="tel">
+                <a href="tel:">(219) 555-0114</a>
+                <a href="Proxy@gmail.com">Proxy@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h4>My Account</h4>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Order History</a></li>
+              <li><a href="#">Shopping Cart</a></li>
+              <li><a href="#">Wishlist</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Helps</h4>
+            <ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Faqs</a></li>
+              <li><a href="#">Terms & Condition</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Proxy</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">shop</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Track Order</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="#">Fruit & Vegetables</a></li>
+              <li><a href="#">Meat & Fish</a></li>
+              <li><a href="#">Bread & Bakery</a></li>
+              <li><a href="#">Beauty & Health</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          Ecobazar eCommerce © 2021. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
