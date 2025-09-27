@@ -29,25 +29,20 @@ pluschaBtn.addEventListener("click", () => {
   qtychaInput.value = value + 1;
 });
 
-
-
-
 // class Student {
 //   constructor(id, name) {
 //     this.id = id;
 //     this.name = name;
-//     this.grades = []; 
+//     this.grades = [];
 //   }
-
 
 //   addGrade(grade) {
 //     this.grades.push(grade);
 //   }
 
-
 //   getAverage() {
 //     if (this.grades.length === 0) {
-//       return 0; 
+//       return 0;
 //     }
 //     let sum = 0;
 //     for (let grade of this.grades) {
@@ -65,16 +60,13 @@ pluschaBtn.addEventListener("click", () => {
 // console.log(students.name, "ning baholari:", students.grades);
 // console.log(students.name, "o'rtacha bahosi:", students.getAverage());
 
-
-
-
 // class Shape {
 //   constructor(name) {
 //     this.name = name;
 //   }
 
 //   area() {
-//     return 0; 
+//     return 0;
 //   }
 // }
 
@@ -89,7 +81,6 @@ pluschaBtn.addEventListener("click", () => {
 //   }
 // }
 
-
 // class Square extends Shape {
 //   constructor(side) {
 //     super("Square");
@@ -100,7 +91,6 @@ pluschaBtn.addEventListener("click", () => {
 //     return this.side * this.side;
 //   }
 // }
-
 
 // class Rectangle extends Shape {
 //   constructor(width, height) {
@@ -113,7 +103,6 @@ pluschaBtn.addEventListener("click", () => {
 //     return this.width * this.height;
 //   }
 // }
-
 
 // const circle = new Circle(5);
 // console.log(`${circle.name} yuzi:`, circle.area().toFixed(2));

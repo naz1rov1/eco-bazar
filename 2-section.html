@@ -39,11 +39,86 @@
 
         <aside>
           <div class="shopping">
-            <a href="./wishlist.html"> <img src="./img/Vector (23).png" alt="" /></a>
-           <a href="./shopping-card.html"> <img src="./img/Cart.png" alt="" /></a>
+            <a href="./wishlist.html">
+              <img src="./img/Vector (23).png" alt=""
+            /></a>
+            <div class="btn-div">
+              <img id="img-modal" src="./img/Search (1).png" alt="Open Modal" />
+            </div>
+
+            <div id="overlay-modal" class="overlay-modal">
+              <div id="modal" class="modal">
+                <div>
+                  <img src="./img/BG (10).png" alt="" />
+                </div>
+                <div class="subscribe-all">
+                  <h2>
+                    Subcribe to Our <br />
+                    Newsletter
+                  </h2>
+                  <p>
+                    Subscribe to our newlletter and Save your 20% <br />
+                    money with discount code today.
+                  </p>
+                  <div class="input-btn">
+                    <input
+                      type="text"
+                      id="email"
+                      placeholder="Enter your email"
+                    />
+                    <button class="btn-1">Subscribe</button>
+                  </div>
+                  <div class="checkbox-wrapper">
+                    <input type="checkbox" id="dont-show" />
+                    <label for="dont-show">Do not show this window</label>
+                  </div>
+                </div>
+                <button id="close">x</button>
+              </div>
+            </div>
+            <div class="btn-div">
+              <img id="img-drawer" src="./img/Cart.png" alt="Open Drawer" />
+            </div>
+            <div class="overlay-drawer" id="overlay-drawer">
+              <div class="drawer" id="drawer">
+                <div class="drawer-header">
+                  <h3>Shopping Cart (2)</h3>
+                  <button id="close-drawer" class="close-btn">×</button>
+                </div>
+
+                <div class="cart-items">
+                  <div class="cart-item">
+                    <img src="./img/Image (50).png" alt="Orange" />
+                    <div class="info">
+                      <p class="">Fresh Indian Orange</p>
+                      <p class="">1 kg × 12.00</p>
+                    </div>
+                    <button class="remove">×</button>
+                  </div>
+
+                  <div class="cart-item">
+                    <img src="./img/Image (50).png" alt="Apple" />
+                    <div class="info">
+                      <p class="">Fresh Indian Orange</p>
+                      <p class="">1 kg × 14.00</p>
+                    </div>
+                    <button class="remove">×</button>
+                  </div>
+                </div>
+
+                <div class="cart-footer">
+                  <div class="summary">
+                    <span>2 Product</span>
+                    <span>$26.00</span>
+                  </div>
+                  <button class="btn checkout">Checkout</button>
+                  <button class="btn go-cart">Go To Cart</button>
+                </div>
+              </div>
+            </div>
             <div class="shopping-in">
-          <a href="./shopping-card.html">Shopping cart:</a>
-          <a href="./shopping-card.html">$57.00</a>
+              <a href="./shopping-card.html">Shopping cart:</a>
+              <a href="./shopping-card.html">$57.00</a>
             </div>
           </div>
         </aside>
@@ -70,7 +145,6 @@
 
     <section>
       <div class="container">
-       
         <div class="left-right-all">
           <div class="left">
             <div class="thumbs">
@@ -88,7 +162,6 @@
             </div>
           </div>
 
-         
           <div class="right">
             <h2>Chinese Cabbage <span class="stock">In Stock</span></h2>
             <div class="stars">
@@ -396,5 +469,6 @@
     </footer>
 
     <script src="./main.js"></script>
+    <script src="./modal.js"></script>
   </body>
 </html>
