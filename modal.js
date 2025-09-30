@@ -28,3 +28,48 @@ closeDrawer.addEventListener("click", () => {
   drawer.classList.remove("show");
   overlayDrawer.classList.remove("show");
 });
+
+
+
+const testimonials = document.querySelectorAll(".testimonial-card");
+const prevBtn = document.querySelector(".prev");
+const nextBtn = document.querySelector(".next");
+
+let currentIndex = 0;
+let interval;
+
+
+function updateCarousel() {
+  testimonials.forEach((card, idx) => {
+    card.classList.toggle("active", idx === currentIndex);
+  });
+}
+
+
+function startCarousel() {
+  clearInterval(interval);
+  interval = setInterval(() => {
+    currentIndex = (currentIndex + 1) % testimonials.length;
+    updateCarousel();
+  }, 5000);
+}
+
+
+nextBtn.addEventListener("click", () => {
+  currentIndex = (currentIndex + 1) % testimonials.length;
+  updateCarousel();
+  startCarousel();
+});
+
+prevBtn.addEventListener("click", () => {
+  currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+  updateCarousel();
+  startCarousel();
+});
+
+updateCarousel();
+startCarousel();
+
+
+
+

@@ -29,6 +29,9 @@ pluschaBtn.addEventListener("click", () => {
   qtychaInput.value = value + 1;
 });
 
+
+
+
 // class Student {
 //   constructor(id, name) {
 //     this.id = id;

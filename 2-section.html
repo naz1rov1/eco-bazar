@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./2-section.css" />
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
     <div class="top-bar">
@@ -287,101 +288,10 @@
     <section>
       <div class="container">
         <h2 class="related">Related Products</h2>
-        <div class="products-grid">
-          <div class="product-card">
-            <img
-              src="./img/Image (54).png"
-              alt="Green Apple"
-              class="product-img"
-            />
-            <div class="product-name">Big Potatoes</div>
-            <div class="product-price">
-              $20.00 <span class="old-price"></span>
-            </div>
-            <div class="product-footer">
-              <div class="stars">
-                <img src="./img/Group (12).png" alt="star" />
-                <img src="./img/Group (12).png" alt="star" />
-                <img src="./img/Group (12).png" alt="star" />
-                <img src="./img/Group (12).png" alt="half star" />
-                <img src="./img/Vector (25).png" alt="empty star" />
-              </div>
-              <div class="cart">
-                <img src="./img/Bag.png" alt="cart" />
-              </div>
-            </div>
-          </div>
-
-          <div class="product-card">
-            <img
-              src="./img/Image (55).png"
-              alt="Green Apple"
-              class="product-img"
-            />
-            <div class="product-name">Corn</div>
-            <div class="product-price">
-              $20.00 <span class="old-price"></span>
-            </div>
-            <div class="product-footer">
-              <div class="stars">
-                <img src="./img/Group (12).png" alt="star" />
-                <img src="./img/Group (12).png" alt="star" />
-                <img src="./img/Group (12).png" alt="star" />
-                <img src="./img/Group (12).png" alt="half star" />
-                <img src="./img/Vector (25).png" alt="empty star" />
-              </div>
-              <div class="cart">
-                <img src="./img/Bag.png" alt="cart" />
-              </div>
-            </div>
-          </div>
-
-          <div class="product-card">
-            <img
-              src="./img/Image (56).png"
-              alt="Green Apple"
-              class="product-img"
-            />
-            <div class="product-name">Fresh Cauliflower</div>
-            <div class="product-price">$12.00</div>
-            <div class="product-footer">
-              <div class="stars">
-                <img src="./img/Group (12).png" alt="star" />
-                <img src="./img/Group (12).png" alt="star" />
-                <img src="./img/Group (12).png" alt="star" />
-                <img src="./img/Group (12).png" alt="half star" />
-                <img src="./img/Vector (25).png" alt="empty star" />
-              </div>
-              <div class="cart">
-                <img src="./img/Bag.png" alt="cart" />
-              </div>
-            </div>
-          </div>
-
-          <div class="product-card">
-            <img
-              src="./img/Image (57).png"
-              alt="Green Apple"
-              class="product-img"
-            />
-            <div class="product-name">Green Capsicum</div>
-            <div class="product-price">
-              $9.00 <span class="old-price">$20.99</span>
-            </div>
-            <div class="product-footer">
-              <div class="stars">
-                <img src="./img/Group (12).png" alt="star" />
-                <img src="./img/Group (12).png" alt="star" />
-                <img src="./img/Group (12).png" alt="star" />
-                <img src="./img/Group (12).png" alt="half star" />
-                <img src="./img/Vector (25).png" alt="empty star" />
-              </div>
-              <div class="cart">
-                <img src="./img/Bag.png" alt="cart" />
-              </div>
-            </div>
-          </div>
-        </div>
+        <div
+          id="pruduct-detail"
+          class="max-w-[1200px] mx-auto grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-[5px]"
+        ></div>
       </div>
     </section>
 
@@ -470,5 +380,6 @@
 
     <script src="./main.js"></script>
     <script src="./modal.js"></script>
+    <script src="./div.js"></script>
   </body>
 </html>
